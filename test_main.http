@@ -1,0 +1,15 @@
+### Teste da rota raiz
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+### Teste da rota de nome com nome existente
+GET http://127.0.0.1:8000/nome/Jefferson
+Accept: application/json
+
+###
+
+### Teste da rota de nome com nome inexistente
+GET http://127.0.0.1:8000/nome/Xablau
+Accept: application/json
